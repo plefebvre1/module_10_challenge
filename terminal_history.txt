@@ -1,0 +1,190 @@
+(base)
+peter@PLXPS13 MINGW64 ~
+$ conda activate dev
+(dev)
+peter@PLXPS13 MINGW64 ~
+$ cd FinTech_Workspace/module_10_challenge/
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_10_challenge (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_10_challenge (main)
+$ touch terminal_history.txt
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_10_challenge (main)
+$ ls
+crypto_investments.ipynb  LICENSE  README.md  Resources/  terminal_history.txt
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_10_challenge (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        terminal_history.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_10_challenge (main)
+$ git add terminal_history.txt
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_10_challenge (main)
+$ git commit -m 'Terminal History initialized'
+[main 1482f3b] Terminal History initialized
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 terminal_history.txt
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_10_challenge (main)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 298 bytes | 298.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/plefebvre1/module_10_challenge.git
+   ef608cc..1482f3b  main -> main
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_10_challenge (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   crypto_investments.ipynb
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_10_challenge (main)
+$ git add crypto_investments.ipynb
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_10_challenge (main)
+$ git commit -m 'Data imported and prepared and optimal k value identified'
+[main e14de8c] Data imported and prepared and optimal k value identified
+ 1 file changed, 2559 insertions(+), 27 deletions(-)
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_10_challenge (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 2.23 MiB | 3.76 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/plefebvre1/module_10_challenge.git
+   1482f3b..e14de8c  main -> main
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_10_challenge (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   crypto_investments.ipynb
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_10_challenge (main)
+$ git add crypto_investments.ipynb
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_10_challenge (main)
+$ git commit -m 'Original data clustered with KMeans model. Clusters optimized and reduced with PCA'
+[main d938d3f] Original data clustered with KMeans model. Clusters optimized and reduced with PCA
+ 1 file changed, 367 insertions(+), 34 deletions(-)
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_10_challenge (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 4.87 KiB | 59.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/plefebvre1/module_10_challenge.git
+   e14de8c..d938d3f  main -> main
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_10_challenge (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_10_challenge (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   crypto_investments.ipynb
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_10_challenge (main)
+$ git add crypto_investments.ipynb
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_10_challenge (main)
+$ git commit -m 'PCA complete and clusters visualized'
+[main 6758de7] PCA complete and clusters visualized
+ 1 file changed, 319 insertions(+), 73 deletions(-)
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_10_challenge (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 7.38 KiB | 103.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/plefebvre1/module_10_challenge.git
+   d938d3f..6758de7  main -> main
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_10_challenge (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   crypto_investments.ipynb
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_10_challenge (main)
+$ git add crypto_investments.ipynb
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_10_challenge (main)
+$ git commit -m 'Results compared and visualized'
+[main 4bc8f6c] Results compared and visualized
+ 1 file changed, 168 insertions(+), 14 deletions(-)
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_10_challenge (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 5.16 KiB | 66.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/plefebvre1/module_10_challenge.git
+   6758de7..4bc8f6c  main -> main
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_10_challenge (main)
+$
