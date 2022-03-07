@@ -16,7 +16,7 @@ This project leverages Python 3.7 in Jupyter Lab with the following packages:
 
 ## Contributors
 
-Starter code for this app was provided by the GWU Fintech Bootcamp program. Updates to that code to fulfill the analysis were done by [Peter Lefebvre](peter.c.lefebvre@gmail.com).
+Starter code for this app was provided by the GWU Fintech Bootcamp program. Updates to that code to fulfill the analysis were done by Peter Lefebvre (peter.c.lefebvre@gmail.com).
 
 ## License
 
